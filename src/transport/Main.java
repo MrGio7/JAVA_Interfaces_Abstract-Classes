@@ -18,5 +18,14 @@ public class Main {
         }
 
         System.out.println("Granny Fuel Level: " + granny.getFuelLVL());
+
+        System.out.println("\n*** From Abstract Class ***");
+
+        BlueCamel alien = new BlueCamel("terest", 10);
+        alien.addFuel(10);
+        System.out.println("Alien " + alien.getFuelLevel());
+
+        BlueCamel rane = new BlueCamel("rane");
+        System.out.println("rane " + rane.getFuelLevel());
     }
 }
