@@ -59,5 +59,10 @@ public class Main {
         System.out.println(myList.toString());
 
         printVehicles(myList, v -> v.getFuelLevel() < 0);
+
+        System.out.println("\nCamel with positive fuel");
+        printVehicles(myList, v -> (v.getFuelLevel() > 0) && (v instanceof BlueCamel));
+
+        
     }
 }
