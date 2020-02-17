@@ -27,5 +27,12 @@ public class Main {
 
         BlueCamel rane = new BlueCamel("rane");
         System.out.println("rane " + rane.getFuelLevel());
+
+        System.out.println("\n*** Auto ***");
+        Auto mazda = new Auto(1, "626", 2000);
+        Auto mercedes = new Auto(2, "GL320", 2008);
+        Auto vw = new Auto(0, "LT 45", 1983);
+
+        
     }
 }
