@@ -18,6 +18,10 @@ public abstract class AbstractVehicle {
         fuel--;
     }
 
+    public void move(int i) {
+        this.fuel = fuel - i;
+    }
+
     public int getFuelLevel() {
         return fuel;
     }
