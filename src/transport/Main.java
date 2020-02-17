@@ -33,6 +33,9 @@ public class Main {
         Auto mercedes = new Auto(2, "GL320", 2008);
         Auto vw = new Auto(0, "LT 45", 1983);
 
+        BlueCamel jipsy = new BlueCamel("Jipsy", 5);
+        BlueCamel mozy = new BlueCamel("Mozy", 1);
+        BlueCamel jona = new BlueCamel("Jona", 3);
         
     }
 }
