@@ -63,6 +63,8 @@ public class Main {
         System.out.println("\nCamel with positive fuel");
         printVehicles(myList, v -> (v.getFuelLevel() > 0) && (v instanceof BlueCamel));
 
-        
+        System.out.println("\nSorted List");
+        myList.sort((v1, v2) -> v1.getName().compareToIgnoreCase(v2.getName()));
+        myList.forEach((v) -> System.out.println(v.getName()));
     }
 }
